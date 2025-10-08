@@ -1,8 +1,8 @@
 import streamlit as st
 import tensorflow as tf
 from tensorflow import keras
-from tensorflow.keras import layers, models
-from tensorflow.keras.preprocessing.image import ImageDataGenerator
+from tensorflow.keras import layers, models # type: ignore
+from tensorflow.keras.preprocessing.image import ImageDataGenerator # type: ignore
 import numpy as np
 import cv2
 import matplotlib.pyplot as plt
